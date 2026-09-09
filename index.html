@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Digital Nomad Residency — анкета</title>
+<meta name="description" content="Анкета кандидата, чек-лист документов и шаблоны резюме, мотивационного письма и портфолио для подачи на Digital Nomad Residency в Astana Hub.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Digital Nomad Residency — анкета">
+<meta property="og:description" content="Анкета кандидата, чек-лист документов и шаблоны резюме, мотивационного письма и портфолио для подачи на Digital Nomad Residency в Astana Hub.">
+<meta name="robots" content="index,follow">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9B%82%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=Golos+Text:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+html,body{margin:0;padding:0}
+#dnr{min-height:100vh;display:block}
+#dnr.embed{min-height:0}
+#dnr.embed .dnr-top{position:static}
+#dnr{--bg:#F4F6F4; --surface:#FFFFFF; --surface-2:#EBEFEC; --sunk:#F8FAF8;
+  --ink:#15191A; --ink-2:#59635F; --ink-3:#8A938F;
+  --line:#DAE0DC; --line-2:#C4CDC8;
+  --accent:#0E6E62; --accent-2:#0A4F46; --accent-soft:#DCEBE7;
+  --req:#AE2A2F; --ok:#2C7A4C; --warn:#8E5C10;
+  --shadow:0 1px 2px rgba(20,30,26,.06),0 8px 24px -12px rgba(20,30,26,.18);}
+@media (prefers-color-scheme:dark){#dnr:not(.light){--bg:#0D1110; --surface:#161B1A; --surface-2:#1E2523; --sunk:#121716;
+    --ink:#E7EDEA; --ink-2:#9CA8A3; --ink-3:#77837E;
+    --line:#293230; --line-2:#38433F;
+    --accent:#4FBCAA; --accent-2:#7FD5C6; --accent-soft:#16302C;
+    --req:#E68A8D; --ok:#6FC08D; --warn:#D3A55C;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);}}
+#dnr.dark{--bg:#0D1110; --surface:#161B1A; --surface-2:#1E2523; --sunk:#121716;
+  --ink:#E7EDEA; --ink-2:#9CA8A3; --ink-3:#77837E;
+  --line:#293230; --line-2:#38433F;
+  --accent:#4FBCAA; --accent-2:#7FD5C6; --accent-soft:#16302C;
+  --req:#E68A8D; --ok:#6FC08D; --warn:#D3A55C;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);}
+#dnr,#dnr *{box-sizing:border-box}
+#dnr{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Golos Text",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+#dnr h1,#dnr h2,#dnr h3{font-family:"Bitter","Golos Text",Georgia,serif;text-wrap:balance;margin:0;letter-spacing:-.01em}
+#dnr .mono{font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace}
+#dnr .dnr-top{position:sticky;top:0;z-index:40;background:var(--surface);border-bottom:1px solid var(--line)}
+#dnr .hwrap{max-width:1080px;margin:0 auto;padding:14px 24px 0;display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start}
+#dnr .brand{flex:1 1 260px;min-width:0}
+#dnr .eyebrow{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:500}
+#dnr h1{font-size:21px;font-weight:600;margin-top:3px}
+#dnr .sub{color:var(--ink-2);font-size:13px;margin-top:2px}
+#dnr .hactions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+#dnr button,#dnr .btn{font-family:inherit;font-size:13.5px;font-weight:500;border-radius:7px;border:1px solid var(--line-2);
+  background:var(--surface);color:var(--ink);padding:8px 13px;cursor:pointer;transition:.14s;line-height:1.2}
+#dnr button:hover{border-color:var(--accent);color:var(--accent)}
+#dnr button:focus-visible,#dnr input:focus-visible,#dnr select:focus-visible,#dnr textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+#dnr button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+#dnr.dark button.primary,#dnr:not(.light) button.primary{color:#08201D}
+@media (prefers-color-scheme:light){#dnr:not(.dark) button.primary{color:#fff}}
+#dnr button.primary:hover{background:var(--accent-2);border-color:var(--accent-2)}
+#dnr button.ghost{border-color:transparent;background:transparent;color:var(--ink-2)}
+#dnr .progress{display:flex;align-items:center;gap:10px;font-size:12.5px;color:var(--ink-2);white-space:nowrap}
+#dnr .bar{width:120px;height:5px;border-radius:3px;background:var(--surface-2);overflow:hidden}
+#dnr .bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
+#dnr nav.tabs{max-width:1080px;margin:0 auto;padding:0 24px;display:flex;gap:2px;overflow-x:auto}
+#dnr nav.tabs button{border:none;border-radius:0;background:none;padding:11px 14px 10px;color:var(--ink-2);
+  border-bottom:2px solid transparent;font-weight:500;white-space:nowrap}
+#dnr nav.tabs button:hover{color:var(--ink)}
+#dnr nav.tabs button[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent);font-weight:600}
+#dnr .dnr-main{max-width:1080px;margin:0 auto;padding:28px 24px 96px}
+#dnr .panel[hidden]{display:none!important}
+#dnr .sec{background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-bottom:18px;overflow:hidden}
+#dnr .sec>.hd{position:static;background:var(--sunk);border-bottom:1px solid var(--line);padding:13px 20px;display:flex;gap:12px;align-items:baseline}
+#dnr .sec-n{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;color:var(--accent);letter-spacing:.04em}
+#dnr .sec h2{font-size:16px;font-weight:600}
+#dnr .sec-note{font-size:12.5px;color:var(--ink-3);margin-left:auto;text-align:right}
+#dnr .body{padding:20px}
+#dnr .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+#dnr .f{display:flex;flex-direction:column;gap:5px;min-width:0}
+#dnr .f.wide{grid-column:1/-1}
+#dnr label{font-size:12.5px;font-weight:600;color:var(--ink-2);letter-spacing:.005em}
+#dnr label .r{color:var(--req);margin-left:2px}
+#dnr .hint{font-size:11.5px;color:var(--ink-3);line-height:1.4}
+#dnr input[type=text],#dnr input[type=email],#dnr input[type=tel],#dnr input[type=number],#dnr select,#dnr textarea{font-family:inherit;font-size:14.5px;color:var(--ink);background:var(--sunk);
+  border:1px solid var(--line);border-radius:7px;padding:9px 11px;width:100%;transition:.14s}
+#dnr input:focus,#dnr select:focus,#dnr textarea:focus{background:var(--surface);border-color:var(--accent)}
+#dnr input::placeholder,#dnr textarea::placeholder{color:var(--ink-3)}
+#dnr textarea{resize:vertical;min-height:78px;line-height:1.5}
+#dnr select{appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--ink-3) 50%),linear-gradient(135deg,var(--ink-3) 50%,transparent 50%);
+  background-position:calc(100% - 16px) 51%,calc(100% - 11px) 51%;background-size:5px 5px,5px 5px;background-repeat:no-repeat;padding-right:34px}
+#dnr .filled{border-color:var(--accent)!important}
+#dnr .search{position:relative;margin-bottom:12px}
+#dnr .search input{padding-left:34px}
+#dnr .search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);color:var(--ink-3)}
+#dnr .plist{max-height:340px;overflow-y:auto;border:1px solid var(--line);border-radius:9px;background:var(--sunk)}
+#dnr .p{display:flex;gap:11px;align-items:flex-start;padding:9px 13px;cursor:pointer;border-bottom:1px solid var(--line)}
+#dnr .p:last-child{border-bottom:none}
+#dnr .p:hover{background:var(--surface-2)}
+#dnr .p input{margin:3px 0 0;accent-color:var(--accent);width:15px;height:15px;flex:none}
+#dnr .p .code{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--accent);font-weight:500;display:block}
+#dnr .p .ru{font-size:14px;display:block;line-height:1.35}
+#dnr .p .en{font-size:11.5px;color:var(--ink-3);display:block}
+#dnr .p.on{background:var(--accent-soft)}
+#dnr .p[hidden]{display:none}
+#dnr .picked{margin-top:11px;font-size:13px;color:var(--ink-2);padding:9px 12px;border-radius:7px;background:var(--accent-soft);border:1px solid var(--line)}
+#dnr .ck{background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-bottom:18px;overflow:hidden}
+#dnr .ck>.hd{position:static;background:var(--sunk);border-bottom:1px solid var(--line);padding:12px 20px;display:flex;gap:12px;align-items:center}
+#dnr .ck h3{font-size:15px;font-weight:600}
+#dnr .pill{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:500;padding:3px 8px;border-radius:20px;
+  border:1px solid var(--line-2);color:var(--ink-2);margin-left:auto;white-space:nowrap}
+#dnr .pill.done{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+#dnr .item{display:flex;gap:12px;padding:13px 20px;border-bottom:1px solid var(--line);align-items:flex-start}
+#dnr .item:last-child{border-bottom:none}
+#dnr .item input{margin:2px 0 0;width:17px;height:17px;accent-color:var(--accent);flex:none;cursor:pointer}
+#dnr .item .t{font-weight:600;font-size:14.5px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+#dnr .item .d{font-size:13px;color:var(--ink-2);margin-top:3px;line-height:1.5}
+#dnr .tag{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;
+  padding:2px 6px;border-radius:4px;font-weight:500}
+#dnr .tag.must{background:rgba(174,42,47,.1);color:var(--req)}
+#dnr .tag.opt{background:var(--surface-2);color:var(--ink-3)}
+#dnr .item.checked .t{color:var(--ink-3);text-decoration:line-through;text-decoration-color:var(--line-2)}
+#dnr .tpl{background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-bottom:18px;overflow:hidden}
+#dnr .tpl>.hd{position:static;background:var(--sunk);border-bottom:1px solid var(--line);padding:13px 20px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+#dnr .tpl h3{font-size:16px;font-weight:600}
+#dnr .tpl .why{font-size:12.5px;color:var(--ink-2);flex:1 1 100%;margin-top:-2px}
+#dnr pre{margin:0;padding:20px;font-family:"JetBrains Mono",monospace;font-size:12.5px;line-height:1.65;
+  white-space:pre-wrap;overflow-x:auto;color:var(--ink);background:var(--sunk);max-height:460px;overflow-y:auto}
+#dnr .rules{padding:16px 20px;border-top:1px solid var(--line);font-size:13px;color:var(--ink-2)}
+#dnr .rules ul{margin:6px 0 0;padding-left:20px}
+#dnr .rules li{margin-bottom:4px}
+#dnr .stage{display:grid;grid-template-columns:auto 1fr;gap:18px;position:relative;padding-bottom:26px}
+#dnr .stage:last-child{padding-bottom:0}
+#dnr .stage .n{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:13px;width:34px;height:34px;border-radius:50%;
+  display:grid;place-items:center;background:var(--accent-soft);color:var(--accent);border:1px solid var(--accent);z-index:1}
+#dnr .stage:not(:last-child)::before{content:"";position:absolute;left:17px;top:36px;bottom:2px;width:1px;background:var(--line-2)}
+#dnr .stage h3{font-size:15.5px;font-weight:600}
+#dnr .stage .meta{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--ink-3);margin:3px 0 7px;letter-spacing:.02em}
+#dnr .stage p{margin:0;font-size:14px;color:var(--ink-2)}
+#dnr .stage ul{margin:7px 0 0;padding-left:20px;font-size:13.5px;color:var(--ink-2)}
+#dnr .stage li{margin-bottom:3px}
+#dnr .callout{border:1px solid var(--line);border-left:3px solid var(--accent);background:var(--surface);
+  border-radius:0 10px 10px 0;padding:14px 18px;font-size:13.5px;color:var(--ink-2);margin-bottom:20px}
+#dnr .callout b{color:var(--ink)}
+#dnr .foot{margin-top:32px;padding-top:18px;border-top:1px solid var(--line);font-size:12px;color:var(--ink-3);line-height:1.6}
+#dnr .foot a{color:var(--accent)}
+#dnr #toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,80px);background:var(--ink);color:var(--bg);
+  padding:11px 20px;border-radius:8px;font-size:13.5px;font-weight:500;opacity:0;transition:.25s;z-index:90;pointer-events:none;box-shadow:var(--shadow)}
+#dnr #toast.on{transform:translate(-50%,0);opacity:1}
+@media (max-width:620px){#dnr .hwrap{padding:12px 16px 0}
+#dnr nav.tabs{padding:0 16px}
+#dnr .dnr-main{padding:20px 16px 80px}
+#dnr .body{padding:16px}
+#dnr .bar{width:78px}}
+@media (prefers-reduced-motion:reduce){#dnr,#dnr *{transition:none!important;animation:none!important}}
+@media print{#dnr .dnr-top,#dnr nav.tabs,#dnr .hactions,#dnr .progress,#dnr #toast,#dnr .search,#dnr .no-print{display:none!important}
+#dnr{background:#fff;color:#000;font-size:11pt}
+#dnr .panel[hidden]{display:block!important}
+#dnr .sec,#dnr .ck,#dnr .tpl{break-inside:avoid;box-shadow:none;border-color:#999}
+#dnr .plist{max-height:none;overflow:visible}
+#dnr .p:not(.on){display:none}
+#dnr pre{max-height:none}}
+</style>
+</head>
+<body>
+
+
+<div id="dnr">
+<header class="dnr-top">
+  <div class="hwrap">
+    <div class="brand">
+      <div class="eyebrow">Astana Hub · Республика Казахстан</div>
+      <h1>Digital Nomad Residency — анкета кандидата</h1>
+      <div class="sub">Заполните на русском или английском, затем нажмите «Скопировать анкету» и отправьте нам вместе с документами.</div>
+    </div>
+    <div class="hactions">
+      <div class="progress"><span id="pct" class="mono">0%</span><span class="bar"><i id="barfill"></i></span></div>
+      <button class="primary" id="copy">Скопировать анкету</button>
+      <button id="print">Печать / PDF</button>
+      <button class="ghost" id="clear">Очистить</button>
+    </div>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-t="form">Анкета</button>
+    <button role="tab" aria-selected="false" data-t="docs">Документы</button>
+    <button role="tab" aria-selected="false" data-t="tpl">Шаблоны</button>
+    <button role="tab" aria-selected="false" data-t="proc">Как проходит процесс</button>
+  </nav>
+</header>
+
+<div class="dnr-main">
+<!-- ============ АНКЕТА ============ -->
+<div class="panel" id="p-form">
+  <div class="callout">
+    <b>Что вводить.</b> Все имена — строго как в загранпаспорте. Анкета сохраняется в вашем браузере автоматически: можно закрыть вкладку и вернуться позже. Данные никуда не отправляются, пока вы сами не скопируете и не пришлёте их.
+  </div>
+
+  <section class="sec">
+    <div class="hd"><span class="sec-n">01</span><h2>Личные данные</h2><span class="sec-note">Как в загранпаспорте</span></div>
+    <div class="body"><div class="grid">
+      <div class="f"><label for="last">Фамилия<span class="r">*</span></label><input type="text" id="last" data-l="Фамилия" placeholder="Иванов"></div>
+      <div class="f"><label for="first">Имя<span class="r">*</span></label><input type="text" id="first" data-l="Имя" placeholder="Иван"></div>
+      <div class="f"><label for="mid">Отчество</label><input type="text" id="mid" data-opt data-l="Отчество" placeholder="Иванович"></div>
+      <div class="f"><label for="lat">Фамилия и имя латиницей<span class="r">*</span></label><input type="text" id="lat" data-l="ФИО латиницей" placeholder="IVANOV IVAN"><div class="hint">Точно как в машиночитаемой строке паспорта</div></div>
+      <div class="f"><label for="dob">Дата рождения<span class="r">*</span></label><input type="text" id="dob" data-l="Дата рождения" placeholder="ДД.ММ.ГГГГ"></div>
+      <div class="f"><label for="cit">Гражданство<span class="r">*</span></label><input type="text" id="cit" data-l="Гражданство" placeholder="Россия"></div>
+      <div class="f"><label for="pnum">Номер загранпаспорта<span class="r">*</span></label><input type="text" id="pnum" data-l="Номер паспорта" placeholder="123456789"></div>
+      <div class="f"><label for="pexp">Паспорт действителен до<span class="r">*</span></label><input type="text" id="pexp" data-l="Паспорт действителен до" placeholder="ДД.ММ.ГГГГ"><div class="hint">Должен быть действителен ещё минимум 1 год</div></div>
+      <div class="f"><label for="mail">Электронная почта<span class="r">*</span></label><input type="email" id="mail" data-l="Email" placeholder="ivan@example.com"></div>
+      <div class="f"><label for="wa">Номер, привязанный к WhatsApp<span class="r">*</span></label><input type="tel" id="wa" data-l="WhatsApp" placeholder="+7 700 000 00 00"></div>
+      <div class="f"><label for="iin">ИИН в Казахстане</label><input type="text" id="iin" data-opt data-l="ИИН" placeholder="если уже получен"><div class="hint">Если нет — оставьте пустым, поможем оформить</div></div>
+      <div class="f"><label for="eds">ЭЦП (электронная подпись РК)</label><select id="eds" data-opt data-l="ЭЦП"><option value="">— выберите —</option><option>Есть</option><option>Нет</option></select></div>
+      <div class="f wide"><label for="live">Место планируемого проживания в Казахстане<span class="r">*</span></label><input type="text" id="live" data-l="Планируемое проживание" placeholder="г. Астана — или — г. Алматы, район, адрес если известен"><div class="hint">Пилот действует только для Астаны и Алматы</div></div>
+    </div></div>
+  </section>
+
+  <section class="sec">
+    <div class="hd"><span class="sec-n">02</span><h2>Профессия в IT</h2><span class="sec-note">Классификатор НКЗ</span></div>
+    <div class="body">
+      <div class="hint" style="margin-bottom:10px">Выберите одну позицию — ту, что ближе всего к вашей реальной роли. Резюме и портфолио должны подтверждать именно её.</div>
+      <div class="search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input type="text" id="psearch" placeholder="Поиск: developer, безопасность, 2512…" autocomplete="off">
+      </div>
+      <div class="plist" id="plist"></div>
+      <div class="picked" id="picked">Профессия не выбрана</div>
+      <div class="f wide" style="margin-top:16px"><label for="role">Ваша должность сейчас (как в трудовом договоре / на визитке)<span class="r">*</span></label><input type="text" id="role" data-l="Текущая должность" placeholder="Senior Backend Engineer"></div>
+      <div class="f wide" style="margin-top:14px"><label for="stack">Ключевой стек и технологии<span class="r">*</span></label><input type="text" id="stack" data-l="Стек" placeholder="Python, Django, PostgreSQL, AWS, Kubernetes"></div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="hd"><span class="sec-n">03</span><h2>Образование</h2><span class="sec-note">Диплом — при наличии</span></div>
+    <div class="body"><div class="grid">
+      <div class="f"><label for="he">Наличие высшего образования<span class="r">*</span></label><select id="he" data-l="Высшее образование"><option value="">— выберите —</option><option>Да</option><option>Нет</option></select></div>
+      <div class="f"><label for="uni">Название учебного заведения<span class="r">*</span></label><input type="text" id="uni" data-l="Учебное заведение" placeholder="Полное название без сокращений"></div>
+      <div class="f"><label for="spec">Направление обучения (специализация)<span class="r">*</span></label><input type="text" id="spec" data-l="Специализация" placeholder="Информатика и вычислительная техника"></div>
+      <div class="f"><label for="lvl">Уровень образования<span class="r">*</span></label><select id="lvl" data-l="Уровень образования"><option value="">— выберите —</option><option>Техническое и профессиональное (колледж)</option><option>Бакалавриат</option><option>Специалитет</option><option>Магистратура</option><option>Докторантура / PhD</option></select></div>
+      <div class="f"><label for="year">Год окончания<span class="r">*</span></label><input type="text" id="year" data-l="Год окончания" placeholder="2016"></div>
+      <div class="f"><label for="cert">Сертификаты и курсы</label><input type="text" id="cert" data-opt data-l="Сертификаты" placeholder="AWS SAA (2024), CS50 (2021)"><div class="hint">Перечислите через запятую, файлы приложите отдельно</div></div>
+    </div></div>
+  </section>
+
+  <section class="sec">
+    <div class="hd"><span class="sec-n">04</span><h2>Опыт работы</h2><span class="sec-note">Полные годы + оставшиеся месяцы</span></div>
+    <div class="body">
+      <div class="grid">
+        <div class="f"><label for="yrs">Количество полных лет опыта<span class="r">*</span></label><input type="number" id="yrs" min="0" max="60" data-l="Опыт, лет" placeholder="7"></div>
+        <div class="f"><label for="mos">Оставшиеся месяцы опыта<span class="r">*</span></label><input type="number" id="mos" min="0" max="11" data-l="Опыт, месяцев" placeholder="4"><div class="hint">От 0 до 11</div></div>
+        <div class="f"><label for="emp">Текущий или последний работодатель<span class="r">*</span></label><input type="text" id="emp" data-l="Работодатель" placeholder="ООО «Компания» / фриланс / ИП"></div>
+        <div class="f"><label for="contract">Трудовой договор</label><select id="contract" data-opt data-l="Трудовой договор"><option value="">— выберите —</option><option>Есть действующий</option><option>Есть, но истёкший</option><option>Нет (фриланс / самозанятость)</option></select></div>
+      </div>
+      <div class="f wide" style="margin-top:16px"><label for="hist">Места работы за последние 5+ лет<span class="r">*</span></label>
+        <textarea id="hist" data-l="История работы" placeholder="2022 — н.в. · Компания · Senior Backend Engineer&#10;2019 — 2022 · Компания · Backend Engineer&#10;2017 — 2019 · Компания · Junior Developer"></textarea>
+        <div class="hint">По строке на место: период · компания · должность. Должно совпадать с резюме.</div></div>
+      <div class="f wide" style="margin-top:16px"><label for="proj">3 главных проекта для портфолио<span class="r">*</span></label>
+        <textarea id="proj" data-l="Проекты" placeholder="1. Название — задача, ваша роль, стек, измеримый результат, ссылка&#10;2. …&#10;3. …"></textarea></div>
+      <div class="f wide" style="margin-top:16px"><label for="links">Ссылки: GitHub, LinkedIn, сайт, портфолио</label>
+        <input type="text" id="links" data-opt data-l="Ссылки" placeholder="github.com/…, linkedin.com/in/…"></div>
+      <div class="f wide" style="margin-top:16px"><label for="why">Зачем вам Казахстан — 2–3 предложения<span class="r">*</span></label>
+        <textarea id="why" data-l="Мотивация" placeholder="Своими словами: почему переезд, чем планируете заниматься, что дадите рынку. Мы развернём это в мотивационное письмо."></textarea></div>
+      <div class="f wide" style="margin-top:16px"><label for="fam">Семья, которая переезжает с вами</label>
+        <input type="text" id="fam" data-opt data-l="Семья" placeholder="Супруга + 1 ребёнок 7 лет / еду один"></div>
+      <div class="f wide" style="margin-top:16px"><label for="note">Комментарий для консультанта</label>
+        <textarea id="note" data-opt data-l="Комментарий" placeholder="Сроки, ограничения, вопросы, нестандартные ситуации (смена фамилии, двойное гражданство, отказы в визах)."></textarea></div>
+    </div>
+  </section>
+
+  <div class="callout no-print">
+    <b>Готово?</b> Нажмите «Скопировать анкету» вверху и вставьте текст в WhatsApp или письмо. Отдельно приложите файлы из вкладки «Документы».
+  </div>
+</div>
+
+<!-- ============ ДОКУМЕНТЫ ============ -->
+<div class="panel" id="p-docs" hidden>
+  <div class="callout">
+    <b>Как присылать.</b> Все файлы — цветной скан или качественное фото, PDF или JPG, каждый файл до 100 МБ. Называйте по схеме <span class="mono">Фамилия_Тип_документа.pdf</span>. Отмечайте галочками — прогресс сохраняется в браузере.
+  </div>
+  <div id="ckwrap"></div>
+  <div class="callout" style="border-left-color:var(--warn)">
+    <b>Чего не нужно на первом этапе.</b> Медосмотр, дактилоскопия и договор аренды жилья от 180 дней оформляются уже в Казахстане, после предварительного одобрения. Заранее их собирать не нужно.
+  </div>
+</div>
+
+<!-- ============ ШАБЛОНЫ ============ -->
+<div class="panel" id="p-tpl" hidden>
+  <div class="callout">
+    <b>Как пользоваться.</b> Скопируйте шаблон, замените всё в квадратных скобках на своё, удалите подсказки. Язык — казахский, русский или английский, один и тот же во всех трёх документах. Английский предпочтителен.
+  </div>
+  <div id="tplwrap"></div>
+</div>
+
+<!-- ============ ПРОЦЕСС ============ -->
+<div class="panel" id="p-proc" hidden>
+  <div class="callout">
+    <b>Коротко.</b> Пилот Digital Nomad Residency действует до 31 декабря 2026 года, только для Астаны и Алматы. Требований к минимальному доходу нет. Весь путь занимает примерно 2–2,5 месяца.
+  </div>
+  <div class="sec"><div class="body" id="procwrap"></div></div>
+  <div class="foot">
+    Источники по срокам и этапам: <a href="https://astanahub.com/ru/l/digital-nomad" target="_blank" rel="noopener">Astana Hub — Digital Nomad</a> · <a href="https://egov.kz/cms/ru/news/digital_nomad_residency" target="_blank" rel="noopener">eGov.kz</a> · <a href="https://mybuh.kz/useful/dlya-inostrannykh-it-spetsialistov-zapustili-pilot-digital-nomad-residency-po-polucheniyu-vnzh-rpp.html" target="_blank" rel="noopener">mybuh.kz</a>. Сроки и перечни могут меняться — итоговый список подтверждает консультант перед подачей. Анкета не является юридической консультацией.
+  </div>
+</div>
+</div>
+<div id="toast"></div>
+</div>
+
+<script>
+"use strict";
+/* ---------------- данные ---------------- */
+var PROF=[
+["2521-2-001","Архитектор информационной технологии-инфраструктуры","IT Infrastructure Architect"],
+["2511-3-001","Архитектор программного обеспечения","Software Architect"],
+["2512-1-007","Разработчик программного обеспечения","Software Developer"],
+["2512-1-008","Специалист по поддержке программных продуктов","Software Product Support Specialist"],
+["2512-2-003","Разработчик мобильных приложений","Mobile App Developer"],
+["2512-3-001","Разработчик компьютерных игр","Computer Games Developer"],
+["2519-9-001","Инженер по искусственному интеллекту","Artificial Intelligence Engineer"],
+["2521-1-003","Специалист по работе с большими данными","Big Data Specialist"],
+["2523-0-006","Архитектор информационных систем","Information Systems Architect"],
+["2519-9-002","Программист приложений","Applications Programmer"],
+["2511-2-001","Бизнес-аналитик в области информационно-коммуникационных технологий","ICT Business Analyst"],
+["2512-1-001","Дизайнер программного обеспечения","Software Designer"],
+["2512-1-003","Менеджер проектов информационно-коммуникационных технологий","ICT Project Manager"],
+["2524-0-003","Инженер по защите информации","Information Security Engineer"],
+["2529-0-001","Специалист по облачным вычислениям","Cloud Computing Specialist"],
+["2141-3-001","Инженер по автоматизации","Automation Engineer"],
+["2512-2-001","World Wide Web-разработчик","World Wide Web Developer"],
+["2512-1-005","Программист-аналитик","Programmer-analyst"],
+["2317-0-003","Преподаватель / доцент / профессор вуза по ИТ и программному обеспечению","IT Lecturer / Professor"],
+["2524-0-007","Специалист по информационной безопасности","Data Security Specialist"],
+["2522-0-003","Администратор серверов","Server Administrator"],
+["2512-2-004","Разработчик приложений","Applications Developer"],
+["2524-0-006","Специалист по защите информации","Data Protection Specialist"]
+];
+
+var DOCS=[
+ ["Обязательные документы кандидата",[
+  ["Загранпаспорт","must","Разворот с фото. Действителен минимум 1 год от даты подачи. Скан цветной, все четыре угла в кадре, без бликов."],
+  ["Цветная фотография 35×45 мм","must","1 шт., белый фон, лицо занимает 70–80% кадра, без головного убора и очков с затемнением. Формат JPG, от 600 dpi."],
+  ["Резюме (CV)","must","На казахском, русском или английском. Шаблон — во вкладке «Шаблоны». 1–2 страницы, PDF."],
+  ["Мотивационное письмо","must","На том же языке, что и резюме. 1 страница. Шаблон — во вкладке «Шаблоны»."],
+  ["Портфолио","must","Описание проектов и достижений. PDF до 100 МБ. Обязательно, даже если работа под NDA — тогда без названий заказчиков."],
+  ["Справка о несудимости","must","Из страны гражданства и из стран, где вы жили последние годы. Свежая — обычно принимают до 3 месяцев с даты выдачи. С апостилем или нотариальным переводом."]
+ ]],
+ ["Документы об образовании и опыте",[
+  ["Диплом о высшем образовании","opt","При наличии. Скан диплома и вкладыша с оценками. Сильно усиливает заявку."],
+  ["Сертификаты о повышении квалификации","opt","AWS, Google, Coursera, вендорские экзамены. Приложите те, что подтверждают выбранную профессию НКЗ."],
+  ["Трудовой договор","opt","Действующий или истёкший — любой. Если фриланс: договоры с заказчиками, акты, инвойсы."],
+  ["Рекомендательные письма","opt","Не обязательны, но помогают на видеоинтервью. От руководителей, на фирменном бланке."]
+ ]],
+ ["Для оформления в Казахстане",[
+  ["ИИН (индивидуальный идентификационный номер)","must","Нужен, чтобы подать заявку на портале Astana Hub. Оформляется в ЦОНе или через консульство."],
+  ["ЭЦП — электронная цифровая подпись РК","must","Без неё заявку не подписать. Выпускается после получения ИИН."]
+ ]],
+ ["После предварительного одобрения — уже в Казахстане",[
+  ["Медицинское обследование","must","Проходится по прибытии, до подачи на eGov."],
+  ["Дактилоскопическая регистрация","must","Обязательна для всех заявителей."],
+  ["Договор аренды жилья от 180 дней","must","Зарегистрированный. Нужен для оформления ВНЖ/РПП."],
+  ["Квитанция об оплате госпошлины","must","Реквизиты дадим перед подачей на eGov."]
+ ]]
+];
+
+var TPL=[
+ ["Резюме (CV)","1–2 страницы, PDF. Комиссия читает его, чтобы сверить ваш опыт с выбранной профессией по НКЗ — поэтому должность и стек должны буквально перекликаться с выбранным кодом.",
+  "[ИМЯ ФАМИЛИЯ ЛАТИНИЦЕЙ]\n[Должность, совпадающая с выбранной профессией по НКЗ]\n[Город, страна] · [email] · [телефон/WhatsApp] · [GitHub] · [LinkedIn]\n\nPROFILE / О СЕБЕ\n[2–3 предложения: кто вы, сколько лет в профессии, в каких доменах,\nкакой у вас главный результат. Первым же предложением назовите\nсвою специализацию словами из выбранной профессии НКЗ.]\nПример: Backend-инженер с 8 годами опыта в финтехе и\nвысоконагруженных сервисах. Проектирую и разрабатываю\nраспределённые системы на Python и Go, отвечал за платформу,\nобслуживающую 2 млн запросов в сутки.\n\nКЛЮЧЕВЫЕ НАВЫКИ\nЯзыки:            [Python, Go, TypeScript]\nФреймворки:       [Django, FastAPI, React]\nБазы данных:      [PostgreSQL, ClickHouse, Redis]\nИнфраструктура:   [Docker, Kubernetes, AWS, CI/CD]\nПрочее:           [системное проектирование, код-ревью, менторство]\n\nОПЫТ РАБОТЫ\n\n[Должность] — [Компания], [Город, страна]\n[Месяц ГГГГ] — [Месяц ГГГГ или «настоящее время»]\n· [Что вы делали — глагол + объект + результат в цифрах]\n· [Пример: Спроектировал систему обработки платежей,\n   сократив время отклика с 800 мс до 120 мс]\n· [Пример: Руководил командой из 4 инженеров, выпустили\n   мобильный SDK, интегрированный 30+ партнёрами]\n· [Стек: перечислите технологии этого места работы]\n\n[Должность] — [Компания], [Город, страна]\n[Месяц ГГГГ] — [Месяц ГГГГ]\n· […]\n· […]\n\n[Повторите блок для каждого места работы за последние 8–10 лет.\nПериоды должны совпадать с общим стажем, который вы указали\nв анкете — годы и месяцы проверяют.]\n\nОБРАЗОВАНИЕ\n[Уровень: бакалавриат / магистратура], [Специальность]\n[Полное название вуза], [Город, страна], [Год окончания]\n\nСЕРТИФИКАТЫ\n· [Название] — [организация], [год]\n· [Название] — [организация], [год]\n\nЯЗЫКИ\n[Русский — родной; Английский — B2/C1; Казахский — базовый]\n\n———\nЧего избегать: фотографий, возраста, семейного положения,\nграфических «шкал владения навыками», размытых формулировок\nвроде «участвовал в разработке». Только конкретные действия\nи измеримые результаты."],
+
+ ["Мотивационное письмо","Ровно 1 страница. Его читают, чтобы понять: вы едете работать в IT именно в Казахстане — или просто ищете любой ВНЖ. Второе читается сразу и вредит заявке.",
+  "[Город, страна] · [Дата]\n\nКому: Комиссия по программе Digital Nomad Residency\nМеждународный технопарк IT-стартапов Astana Hub\n\nТема: Заявление на участие в программе Digital Nomad Residency\n\nУважаемые члены комиссии,\n\n[АБЗАЦ 1 — КТО ВЫ. Две-три строки: специализация, стаж,\nтекущая роль и работодатель, чем занимаетесь предметно.\nНазовите профессию так же, как она называется в выбранном\nкоде НКЗ.]\nПример: Меня зовут [Имя Фамилия], я инженер по искусственному\nинтеллекту с 7 годами опыта. Последние три года руковожу\nразработкой систем компьютерного зрения в [Компания],\nгде отвечаю за модели, обрабатывающие 500 тыс. изображений\nв сутки.\n\n[АБЗАЦ 2 — ПОЧЕМУ КАЗАХСТАН. Самый важный абзац. Назовите\nконкретику: экосистема Astana Hub, налоговый режим для IT,\nрастущий рынок Центральной Азии, конкретные компании или\nпродукты, за которыми вы следите, доступ к региону.\nОбщие слова про «дружелюбную страну» здесь не работают.]\nПример: Казахстан за последние годы стал центром притяжения\nдля инженеров в регионе: Astana Hub объединяет более\n[N] компаний, а формируемый вокруг него рынок AI-решений\nблизок к тому, чем я занимаюсь профессионально. Мне важно\nработать там, где мои компетенции востребованы не абстрактно,\nа на конкретных задачах растущего рынка.\n\n[АБЗАЦ 3 — ЧТО ВЫ ДАДИТЕ. Что вы принесёте местному рынку:\nэкспертиза, менторство, найм локальной команды, перенос\nпрактик, публичные выступления, open source, обучение\nстудентов. Будьте реалистичны — обещания уровня «создам\nединорога» вредят.]\nПример: Я готов делиться опытом построения ML-инфраструктуры\nс локальными командами, участвовать в митапах Astana Hub\nи менторить junior-инженеров — за последние два года я довёл\nдо самостоятельной работы четырёх специалистов.\n\n[АБЗАЦ 4 — ПЛАНЫ. Где будете жить (Астана или Алматы),\nв каком формате работаете (удалённо на текущего работодателя,\nсобственный продукт, планируете локальное трудоустройство),\nедете ли с семьёй, на какой горизонт.]\nПример: Планирую переехать в [Астану/Алматы] и продолжать\nработу в [формат], рассматривая горизонт от трёх лет.\nВместе со мной переезжает [состав семьи].\n\n[АБЗАЦ 5 — ЗАКРЫТИЕ. Коротко и по делу.]\nПрилагаю резюме, портфолио и подтверждающие документы.\nБуду рад ответить на вопросы комиссии на видеоинтервью.\n\nС уважением,\n[Имя Фамилия]\n[email] · [телефон]\n\n———\nПравила: одна страница, не больше. Никаких эмоциональных\nобращений и жалоб на обстоятельства в стране исхода —\nписьмо о профессиональных мотивах. Не копируйте резюме\nсписком: письмо объясняет «зачем», резюме отвечает «что»."],
+
+ ["Портфолио","PDF до 100 МБ. Главная ошибка — прислать ссылку на GitHub и на этом закончить. Нужен собранный документ, который читается без вас.",
+  "ПОРТФОЛИО\n[Имя Фамилия] · [Должность] · [дата составления]\n[email] · [GitHub] · [LinkedIn] · [сайт]\n\n———————————————————————————————\nКРАТКО ОБО МНЕ\n[3–4 строки: специализация, стаж, в каких доменах работали,\nчем именно ценны. Тот же посыл, что в резюме.]\n\nТЕХНОЛОГИЧЕСКИЙ СТЕК\n[Сгруппируйте: языки / фреймворки / данные / инфраструктура /\nинструменты. Только то, чем реально пользуетесь.]\n\n———————————————————————————————\nПРОЕКТ 1 — [НАЗВАНИЕ]\n\nКонтекст      [Компания или заказчик, период, размер команды.\n               Если NDA — «финтех-компания, 200+ сотрудников».]\nЗадача        [Какую проблему решали. 1–2 предложения\n               человеческим языком, без внутреннего жаргона.]\nМоя роль      [Что делали лично вы. Не «мы сделали»,\n               а «я спроектировал», «я внедрил».]\nРешение       [Как устроено: архитектура, ключевые решения,\n               почему выбрали именно так.]\nСтек          [Технологии этого проекта]\nРезультат     [Цифры: рост, экономия, скорость, нагрузка,\n               пользователи. Если цифр нет — качественный\n               результат: «вывели продукт на рынок за 4 месяца».]\nСсылки        [Репозиторий, сайт, статья, демо, App Store —\n               или «под NDA»]\nСкриншот      [Вставьте 1–2 изображения: интерфейс, схема\n               архитектуры, дашборд. Схему можно нарисовать\n               самому — это только плюс.]\n\n———————————————————————————————\nПРОЕКТ 2 — [НАЗВАНИЕ]\n[Тот же блок]\n\n———————————————————————————————\nПРОЕКТ 3 — [НАЗВАНИЕ]\n[Тот же блок]\n\n———————————————————————————————\nДОПОЛНИТЕЛЬНО\nOpen source     [Ссылки на репозитории, вклад в чужие проекты,\n                 количество звёзд/форков если показательно]\nПубликации      [Статьи, доклады, выступления, подкасты]\nНаграды         [Хакатоны, конкурсы, внутренние награды]\nМенторство      [Кого и чему учили, курсы, стажёры]\n\n———————————————————————————————\nПравила оформления:\n· 3–5 проектов, не больше. Лучше три сильных, чем десять слабых.\n· Каждый проект — на отдельной странице или развороте.\n· Обязательно визуал: голый текст на 15 страниц не читают.\n· Всё под NDA — обезличивайте, но не выбрасывайте:\n  «крупный банк из топ-10» лучше, чем пустая страница.\n· Проекты должны подтверждать выбранную профессию по НКЗ.\n  Если выбрали «Инженер по ИИ» — покажите ML-проекты,\n  а не вёрстку лендингов.\n· Экспорт в PDF, шрифт от 11 pt, страницы пронумерованы."]
+];
+
+var PROC=[
+ ["Подготовка","до подачи · ~1–2 недели","Собираем документы, получаем ИИН и ЭЦП, доводим резюме, мотивационное письмо и портфолио до вида, в котором их не вернут на доработку.",
+  ["Заполнить эту анкету и прислать нам","Получить ИИН — в ЦОНе или через консульство РК","Выпустить ЭЦП после получения ИИН","Заказать справку о несудимости (делается дольше всего — начинайте первой)"]],
+ ["Заявка на портале Astana Hub","рассмотрение до 45 календарных дней","Подаём заявку с полным пакетом. Профильное министерство проводит видеоинтервью, где проверяют, что вы реально работаете по заявленной специальности.",
+  ["Загрузка анкеты и всех файлов на портал","Видеоинтервью с представителем министерства","Решение и рекомендательное письмо при одобрении"]],
+ ["Подача на eGov и въезд","предварительное одобрение действует 30 дней","После одобрения подаём заявление на РПП/ВНЖ через eGov и въезжаем в Казахстан в течение 30 дней. Если не въехать — решение аннулируется, повторная подача возможна через год.",
+  ["Заявление на eGov: паспорт, фото, рекомендательное письмо, справка о несудимости, госпошлина","Въезд в Казахстан в течение 30 дней","Медосмотр и дактилоскопия по прибытии","Договор аренды жилья от 180 дней"]],
+ ["Получение документа","изготовление карты до 17 дней","Оформление завершается в ЦОНе. По итогу — ВНЖ сроком до 10 лет; после 5 лет проживания открывается путь к натурализации.",
+  ["Подача документов в ЦОН","Изготовление карты ВНЖ","Регистрация по месту жительства"]]
+];
+
+/* ---------------- утилиты ---------------- */
+var ROOT=document.getElementById("dnr");
+function $(s){return ROOT.querySelector(s)}
+function $$(s){return Array.prototype.slice.call(ROOT.querySelectorAll(s))}
+function esc(s){var d=document.createElement("div");d.textContent=s;return d.innerHTML}
+var toastT;
+function toast(m){var t=$("#toast");t.textContent=m;t.classList.add("on");clearTimeout(toastT);toastT=setTimeout(function(){t.classList.remove("on")},2400)}
+function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
+
+/* ---------------- рендер профессий ---------------- */
+var plist=$("#plist");
+plist.innerHTML=PROF.map(function(p,i){
+  return '<label class="p" data-i="'+i+'"><input type="radio" name="prof" value="'+i+'">'+
+  '<span><span class="code">'+esc(p[0])+'</span><span class="ru">'+esc(p[1])+'</span><span class="en">'+esc(p[2])+'</span></span></label>';
+}).join("");
+
+function updPicked(){
+  var r=plist.querySelector("input:checked");
+  $$(".p").forEach(function(el){el.classList.remove("on")});
+  if(r){var p=PROF[+r.value];r.closest(".p").classList.add("on");
+    $("#picked").innerHTML='Выбрано: <b>'+esc(p[1])+'</b> <span class="mono">('+esc(p[0])+')</span>';}
+  else $("#picked").textContent="Профессия не выбрана";
+}
+plist.addEventListener("change",function(){updPicked();save();prog()});
+$("#psearch").addEventListener("input",function(e){
+  var q=e.target.value.trim().toLowerCase();
+  $$(".p").forEach(function(el){var p=PROF[+el.dataset.i];
+    el.hidden=q?(p[0]+" "+p[1]+" "+p[2]).toLowerCase().indexOf(q)<0:false;});
+});
+
+/* ---------------- рендер чек-листа ---------------- */
+$("#ckwrap").innerHTML=DOCS.map(function(g,gi){
+  return '<div class="ck" data-g="'+gi+'"><div class="hd"><h3>'+esc(g[0])+'</h3><span class="pill" data-p="'+gi+'"></span></div>'+
+  g[1].map(function(d,di){
+    return '<label class="item" data-k="dnr_ck'+gi+'_'+di+'"><input type="checkbox">'+
+    '<span><span class="t">'+esc(d[0])+'<span class="tag '+d[1]+'">'+(d[1]==="must"?"обязательно":"при наличии")+'</span></span>'+
+    '<span class="d">'+esc(d[2])+'</span></span></label>';
+  }).join("")+'</div>';
+}).join("");
+
+function ckSync(){
+  DOCS.forEach(function(g,gi){
+    var items=$$('.ck[data-g="'+gi+'"] .item'),n=0;
+    items.forEach(function(it){var c=it.querySelector("input").checked;it.classList.toggle("checked",c);if(c)n++;});
+    var pill=$('.pill[data-p="'+gi+'"]');
+    pill.textContent=n+" / "+items.length;
+    pill.classList.toggle("done",n===items.length);
+  });
+}
+$("#ckwrap").addEventListener("change",function(e){
+  var it=e.target.closest(".item");
+  if(it)ls(it.dataset.k,e.target.checked?"1":"0");
+  ckSync();
+});
+
+/* ---------------- рендер шаблонов ---------------- */
+$("#tplwrap").innerHTML=TPL.map(function(t,i){
+  return '<div class="tpl"><div class="hd"><h3>'+esc(t[0])+'</h3>'+
+  '<button class="no-print" data-tpl="'+i+'" style="margin-left:auto">Скопировать шаблон</button>'+
+  '<div class="why">'+esc(t[1])+'</div></div><pre id="tpl'+i+'">'+esc(t[2])+'</pre></div>';
+}).join("");
+$("#tplwrap").addEventListener("click",function(e){
+  var b=e.target.closest("[data-tpl]");if(!b)return;
+  copy(TPL[+b.dataset.tpl][2],"Шаблон «"+TPL[+b.dataset.tpl][0]+"» скопирован");
+});
+
+/* ---------------- рендер процесса ---------------- */
+$("#procwrap").innerHTML=PROC.map(function(s,i){
+  return '<div class="stage"><div class="n">'+(i+1)+'</div><div><h3>'+esc(s[0])+'</h3>'+
+  '<div class="meta">'+esc(s[1])+'</div><p>'+esc(s[2])+'</p><ul>'+
+  s[3].map(function(x){return "<li>"+esc(x)+"</li>"}).join("")+'</ul></div></div>';
+}).join("");
+
+/* ---------------- вкладки ---------------- */
+$$('nav.tabs button').forEach(function(b){
+  b.addEventListener("click",function(){
+    $$('nav.tabs button').forEach(function(x){x.setAttribute("aria-selected",x===b)});
+    $$('.panel').forEach(function(p){p.hidden=p.id!=="p-"+b.dataset.t});
+    window.scrollTo({top:0,behavior:"smooth"});
+  });
+});
+
+/* ---------------- сохранение и прогресс ---------------- */
+var fields=$$("#p-form input[data-l], #p-form select[data-l], #p-form textarea[data-l]");
+function save(){
+  fields.forEach(function(f){ls("dnr_"+f.id,f.value)});
+  var r=plist.querySelector("input:checked");ls("dnr_prof",r?r.value:"");
+}
+function load(){
+  fields.forEach(function(f){var v=ls("dnr_"+f.id);if(v)f.value=v});
+  var p=ls("dnr_prof");
+  if(p){var r=plist.querySelector('input[value="'+p+'"]');if(r)r.checked=true}
+  DOCS.forEach(function(g,gi){g[1].forEach(function(d,di){
+    var k="dnr_ck"+gi+"_"+di,el=$('.item[data-k="'+k+'"] input');
+    if(el&&ls(k)==="1")el.checked=true;
+  })});
+}
+function prog(){
+  var req=fields.filter(function(f){return !f.hasAttribute("data-opt")});
+  var done=req.filter(function(f){return f.value.trim()!==""}).length;
+  if(plist.querySelector("input:checked"))done++;
+  var total=req.length+1,pc=Math.round(done/total*100);
+  $("#pct").textContent=pc+"%";$("#barfill").style.width=pc+"%";
+  fields.forEach(function(f){f.classList.toggle("filled",f.value.trim()!=="")});
+}
+$("#p-form").addEventListener("input",function(){save();prog()});
+$("#p-form").addEventListener("change",function(){save();prog()});
+
+/* ---------------- экспорт ---------------- */
+function buildText(){
+  var L=[],r=plist.querySelector("input:checked");
+  L.push("АНКЕТА — DIGITAL NOMAD RESIDENCY (ASTANA HUB)");
+  L.push("Заполнено: "+new Date().toLocaleString("ru-RU"));
+  L.push("");
+  var secs=[["01. ЛИЧНЫЕ ДАННЫЕ",["last","first","mid","lat","dob","cit","pnum","pexp","mail","wa","iin","eds","live"]],
+           ["02. ПРОФЕССИЯ",["role","stack"]],
+           ["03. ОБРАЗОВАНИЕ",["he","uni","spec","lvl","year","cert"]],
+           ["04. ОПЫТ РАБОТЫ",["yrs","mos","emp","contract","hist","proj","links","why","fam","note"]]];
+  secs.forEach(function(s){
+    L.push(s[0]);L.push("".padEnd?"".padEnd(46,"-"):"----------------------------------------------");
+    if(s[0].indexOf("02.")===0){
+      L.push("Профессия по НКЗ: "+(r?PROF[+r.value][1]+" ("+PROF[+r.value][0]+" / "+PROF[+r.value][2]+")":"НЕ ВЫБРАНА"));
+    }
+    s[1].forEach(function(id){
+      var f=$("#"+id);if(!f)return;
+      var v=f.value.trim();
+      L.push(f.dataset.l+": "+(v||"—"));
+    });
+    L.push("");
+  });
+  var miss=fields.filter(function(f){return !f.hasAttribute("data-opt")&&f.value.trim()===""}).map(function(f){return f.dataset.l});
+  if(!r)miss.unshift("Профессия по НКЗ");
+  L.push("НЕ ЗАПОЛНЕНО: "+(miss.length?miss.join(", "):"всё заполнено"));
+  return L.join("\n");
+}
+function copy(text,msg){
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(function(){toast(msg)},function(){fallback(text,msg)});
+  }else fallback(text,msg);
+}
+function fallback(text,msg){
+  var ta=document.createElement("textarea");ta.value=text;
+  ta.style.cssText="position:fixed;top:0;left:0;opacity:0";
+  document.body.appendChild(ta);ta.select();
+  try{document.execCommand("copy");toast(msg)}catch(e){toast("Скопируйте вручную: Ctrl+A, Ctrl+C")}
+  document.body.removeChild(ta);
+}
+$("#copy").addEventListener("click",function(){copy(buildText(),"Анкета скопирована — вставьте в WhatsApp или письмо")});
+$("#print").addEventListener("click",function(){window.print()});
+$("#clear").addEventListener("click",function(){
+  if(!confirm("Удалить все введённые данные и отметки? Отменить будет нельзя."))return;
+  fields.forEach(function(f){f.value=""});
+  var r=plist.querySelector("input:checked");if(r)r.checked=false;
+  $$('.item input').forEach(function(c){c.checked=false});
+  try{Object.keys(localStorage).forEach(function(k){if(k.indexOf("dnr_")===0)localStorage.removeItem(k)})}catch(e){}
+  updPicked();ckSync();prog();toast("Анкета очищена");
+});
+
+load();updPicked();ckSync();prog();
+</script>
+
+<script>
+(function(){
+  var r=document.getElementById("dnr");
+  if(window.self!==window.top&&r)r.classList.add("embed");
+  function h(){try{parent.postMessage({dnrHeight:document.documentElement.scrollHeight},"*")}catch(e){}}
+  addEventListener("load",h);addEventListener("resize",h);
+  document.addEventListener("click",function(){setTimeout(h,60)});
+  document.addEventListener("input",function(){setTimeout(h,60)});
+  setInterval(h,1500);
+})();
+</script>
+</body>
+</html>
