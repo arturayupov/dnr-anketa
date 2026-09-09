@@ -545,6 +545,8 @@ load();updPicked();ckSync();prog();
 (function(){
   var r=document.getElementById("dnr");
   if(window.self!==window.top&&r)r.classList.add("embed");
+  if(r&&/[?&]light/.test(location.search))r.classList.add("light");
+  if(r&&/[?&]dark/.test(location.search))r.classList.add("dark");
   function h(){try{parent.postMessage({dnrHeight:document.documentElement.scrollHeight},"*")}catch(e){}}
   addEventListener("load",h);addEventListener("resize",h);
   document.addEventListener("click",function(){setTimeout(h,60)});
